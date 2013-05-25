@@ -1,0 +1,158 @@
+/*MAIN STYLESHEET*/
+
+/*MAIN TEMPLATES*/
+
+body
+{
+	padding:0;
+	margin:0;
+	background-color:#000;
+}
+
+.clearFix
+{	
+	clear:both;
+}
+
+.left
+{
+	background-color:#000;
+	width:75px;
+	height:625px;
+	float:left;
+}
+
+.right
+{
+	background-color:#000;
+	width:75px;
+	height:625px;
+	float:right;
+}
+
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+	a:hover
+	{
+		color:red;
+	}
+	
+	fieldset
+	{
+		border:5px solid #000;
+		padding-left:30px;
+		font-family:century gothic;
+		font-size:17px;
+		font-weight:bold;
+	}
+	
+	input
+	{
+		border:3px solid black;
+		font-size:17px;
+	}
+
+#header
+{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:350px;
+	margin:auto;
+	background-image:url('../images/header.png');
+	background-color:#000;
+	background-repeat:no-repeat;
+	color:white;
+	text-align:right;
+}
+
+	.bottomContent
+	{
+	position:absolute;
+	bottom:125px;
+	right:129px;
+	font-family:trajan pro, helvetica, arial;
+	font-weight:bolder;
+	font-size:21px;
+	}
+
+#navigation
+{
+	background-color:#000;
+	height:33px;
+	margin-top:355px;
+	text-align:center;
+	font-size:27px;
+}
+
+#content
+{
+	background-color:#fff;
+	border:1px solid #d3d3d3;
+	width:1375px;
+	height:480px;
+	margin:auto;
+	margin-top:15px;
+	font-family:century gothic;
+}
+
+h1
+{
+	text-align:center;
+	width:800px;
+	margin:auto;
+	margin-top:15px;
+	font-weight:normal;
+	font-style:italic;
+}
+
+h2
+{
+	width:1225px;
+	margin-left:25px;
+	color:#a9a9a9;
+	padding-left:50px;
+	border:1px dashed black;
+}
+
+#content p
+{
+	padding-right:175px;
+	text-align:right;
+	font-size:18px;
+}
+
+
+#footer
+{
+	background-color:#000;
+	text-align:center;
+	height:33px;
+	font-family:trajan pro;
+	font-size:27px;
+}
+
+/*OTHER TEMPLATES*/
+
+#loginForm
+{
+	width:350px;
+	margin:auto;
+	margin-top:100px;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#signUp
+{
+	width:400px;
+	margin:auto;
+	margin-top:25px;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
